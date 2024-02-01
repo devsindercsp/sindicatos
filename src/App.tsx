@@ -80,7 +80,7 @@ export function App() {
                   <FormControl>
                     <Input
                       className="focus-visible:ring-0"
-                      placeholder="Procure por abrangência de atuação ou nome do sindicato laboral"
+                      placeholder="Procure pela cidade de atuação do sindicato laboral"
                       {...field}
                     />
                   </FormControl>
