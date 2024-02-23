@@ -67,11 +67,19 @@ export function App() {
     setFilteredList(addedNames)
   }, [searchValue])
 
+  function handleOnKeyDown(e) {
+    e.key === 'Enter' && e.preventDefault()
+  }
+
   return (
     <div className="flex justify-center max-w-1100 mx-auto">
       <div className="flex flex-col max-w-1100 mx-auto">
         <Form {...form}>
-          <form className="my-6" onChange={form.handleSubmit(onSubmit)}>
+          <form
+            onKeyDown={handleOnKeyDown}
+            className="my-6"
+            onChange={form.handleSubmit(onSubmit)}
+          >
             <FormField
               control={form.control}
               name="sindicato"
