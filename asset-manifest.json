@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/sindicatos/static/css/main.76849fe0.css",
-    "main.js": "/sindicatos/static/js/main.40a7c663.js",
+    "main.js": "/sindicatos/static/js/main.0c0cf21c.js",
     "index.html": "/sindicatos/index.html",
     "main.76849fe0.css.map": "/sindicatos/static/css/main.76849fe0.css.map",
-    "main.40a7c663.js.map": "/sindicatos/static/js/main.40a7c663.js.map"
+    "main.0c0cf21c.js.map": "/sindicatos/static/js/main.0c0cf21c.js.map"
   },
   "entrypoints": [
     "static/css/main.76849fe0.css",
-    "static/js/main.40a7c663.js"
+    "static/js/main.0c0cf21c.js"
   ]
 }
