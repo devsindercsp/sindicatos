@@ -165,7 +165,7 @@ function Item(props: { item: any }): React.ReactNode {
       <div>
         <h1 className="font-bold pb-4 py-6">ABRANGÊNCIA</h1>
         <div className="grid grid-cols-2 gap-1">
-          {props.item.coverage.map((city) => {
+          {props.item.coverage.map((city: string) => {
             return (
               <span key={city} className="">
                 {city}
