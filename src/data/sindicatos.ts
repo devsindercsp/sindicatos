@@ -1,4 +1,17 @@
-export const sindicatos = [
+export interface Sindicato {
+  name: string
+  address: string
+  town: string
+  city: string
+  state: string
+  phone: string
+  email: string
+  website: string
+  basedata: string
+  coverage: string[]
+}
+
+export const sindicatos: Sindicato[] = [
   {
     name: 'FEDERAÇÃO DOS TRABALHADORES EM EMPRESAS DE REFS. COL. EMP. DE REFS. COL., COZ. IND. E AFINS DO ESTADO DE SP',
     address: 'RUA LAVRADIO, 603 – ALTOS',

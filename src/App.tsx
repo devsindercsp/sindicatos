@@ -1,8 +1,11 @@
-import { zodResolver } from '@hookform/resolvers/zod'
-import { useForm } from 'react-hook-form'
-import { z } from 'zod'
-
 import './globals.css'
+import { useEffect, useState } from 'react'
+
+import { z } from 'zod'
+import { useForm } from 'react-hook-form'
+import { zodResolver } from '@hookform/resolvers/zod'
+
+import { Input } from './components/ui/input'
 import {
   Form,
   FormControl,
@@ -10,10 +13,8 @@ import {
   FormItem,
   FormMessage,
 } from './components/ui/form'
-import { Input } from './components/ui/input'
 
 import { sindicatos } from './data/sindicatos'
-import { useEffect, useState } from 'react'
 
 const FormSchema = z.object({
   sindicato: z.string(),
@@ -39,6 +40,7 @@ export function App() {
     const addedNames = new Set()
 
     if (searchValue.length < 3) {
+      // @ts-expect-error unsafe type
       setFilteredList(sindicatos)
       return
     }
@@ -67,6 +69,7 @@ export function App() {
     setFilteredList(addedNames)
   }, [searchValue])
 
+  // @ts-expect-error unsafe type
   function handleOnKeyDown(e) {
     e.key === 'Enter' && e.preventDefault()
   }
@@ -120,6 +123,7 @@ export function App() {
   )
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function Item(props: { item: any }): React.ReactNode {
   return (
     <div className="flex flex-col p-2">
@@ -177,7 +181,3 @@ function Item(props: { item: any }): React.ReactNode {
     </div>
   )
 }
-
-/**
- * <iframe src="https://gcrozariol.github.io/sindicatos/" style="height:100vh; width:100vw; overflow:scroll; border:none;"/>
- */
