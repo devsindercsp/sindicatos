@@ -117,7 +117,7 @@ export const sindicatos: Sindicato[] = [
     city: 'SÃO PAULO',
     state: 'SP',
     phone: '(11) 3337-5263 – (11) 3338-2539',
-    email: 'sinesp@sindinutrisp.org.br',
+    email: 'recepcao@sindinutrisp.org.br',
     website: 'www.sindinutrisp.org.br',
     basedata: '-',
     coverage: ['TODO ESTADO DE SÃO PAULO'],
