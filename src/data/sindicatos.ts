@@ -20,7 +20,7 @@ export const sindicatos: Sindicato[] = [
     state: 'SP',
     phone: '(11) 5539-0526',
     email: 'contato@fetercesp.org.br',
-    website: 'intercamp.org.br',
+    website: 'www.fetercesp.org.br',
     basedata: 'Junho',
     coverage: [
       'CANAS',
