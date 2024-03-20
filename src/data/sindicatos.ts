@@ -23,6 +23,7 @@ export const sindicatos: Sindicato[] = [
     website: 'www.fetercesp.org.br',
     basedata: 'Junho',
     coverage: [
+      'SETE BARRAS',
       'CANAS',
       'ESPÍRITO SANTO DO PINHAL',
       'JUQUITIBA',
