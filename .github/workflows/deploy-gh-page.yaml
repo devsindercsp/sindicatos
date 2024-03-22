@@ -9,13 +9,18 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Set up Git
+        run: |
+          git config --global user.email "guicrozariol@gmail.com"
+          git config --global user.name "Guilherme Crozariol"
+
       - name: Checkout code
         uses: actions/checkout@v2
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '20'
+          node-version: '14'
 
       - name: Install dependencies
         run: npm install
