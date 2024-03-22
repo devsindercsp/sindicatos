@@ -25,8 +25,10 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Create build
-        run: npm run build
-
       - name: Run deploy script
         run: npm run deploy
+
+      - name: Configure Git credentials
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
