@@ -737,7 +737,7 @@ export const sindicatos: Sindicato[] = [
       'SANTA LÚCIA',
       'SANTA MARIA DA SERRA',
       'SANTA RITA DO PASSA QUATRO',
-      'SANTO ANTONIO DA POSSE',
+      'SANTO ANTONIO DE POSSE',
       'SANTO ANTONIO DO JARDIM',
       'SUMARÉ',
       'TABATINGA',
