@@ -1,30 +1,20 @@
-name: Deploy on Main Commit
-
-on:
-  push:
-    branches:
-      - main
-
+name: Build and Deploy
+on: [push]
+permissions:
+  contents: write
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '20'
-        
-      - name: Install dependencies
-        run: npm install
-
-      - name: Set Git user email and name
+      - name: Install and Build 🔧
         run: |
-          git remote set-url origin https://github.com/devsindercsp/sindicatos.git
-          git config --global user.email "guicrozariol@gmail.com"
-          git config --global user.name "gcrozariol"
+          npm i
+          npm run build
 
-      - name: Run deploy script
-        run: npm run deploy
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist
