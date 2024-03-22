@@ -12,7 +12,7 @@ jobs:
       - name: Set up Git
         run: |
           git config --global user.email "guicrozariol@gmail.com"
-          git config --global user.name "Guilherme Crozariol"
+          git config --global user.name "gcrozariol"
 
       - name: Checkout code
         uses: actions/checkout@v2
@@ -24,11 +24,6 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-
-      - name: Configure Git credentials
-        run: |
-          git config --global user.email "guicrozariol@gmail.com"
-          git config --global user.name "gcrozariol"
 
       - name: Run deploy script
         run: npm run deploy
