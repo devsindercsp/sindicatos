@@ -119,7 +119,7 @@ export const sindicatos: Sindicato[] = [
     email: 'recepcao@sindinutrisp.org.br',
     website: 'www.sindinutrisp.org.br',
     basedata: 'Junho',
-    coverage: ['TODO ESTADO DE SÃO PAULO'],
+    coverage: ['TODO O ESTADO DE SÃO PAULO'],
   },
   {
     name: 'SINDICATO DOS TÉCNICOS EM NUTRIÇÃO DO ESTADO DE SÃO PAULO',
@@ -131,7 +131,7 @@ export const sindicatos: Sindicato[] = [
     email: 'atendimento@sintenutri.org.br',
     website: 'www.sintenutri.org.br',
     basedata: 'Junho',
-    coverage: ['TODO ESTADO DE SÃO PAULO'],
+    coverage: ['TODO O ESTADO DE SÃO PAULO'],
   },
   {
     name: 'SINDICATO DOS TRABALHADORES EM REFEIÇÕES COLETIVAS DE COTIA, EMBU DAS ARTES, EMBU GUAÇU, ITAPECERICA DA SERRA E TABOÃO DA SERRA',
