@@ -118,7 +118,19 @@ export const sindicatos: Sindicato[] = [
     phone: '(11) 3337-5263 – (11) 3338-2539',
     email: 'recepcao@sindinutrisp.org.br',
     website: 'www.sindinutrisp.org.br',
-    basedata: '-',
+    basedata: 'Junho',
+    coverage: ['TODO ESTADO DE SÃO PAULO'],
+  },
+  {
+    name: 'SINDICATO DOS TÉCNICOS EM NUTRIÇÃO DO ESTADO DE SÃO PAULO',
+    address: 'RUA BARRA FUNDA, 933 - SALA 03',
+    town: 'BARRA FUNDA',
+    city: 'SÃO PAULO',
+    state: 'SP',
+    phone: '(11) 3666-8803',
+    email: 'atendimento@sintenutri.org.br',
+    website: 'www.sintenutri.org.br',
+    basedata: 'Junho',
     coverage: ['TODO ESTADO DE SÃO PAULO'],
   },
   {
@@ -148,7 +160,7 @@ export const sindicatos: Sindicato[] = [
     phone: '(11) 4746-2326',
     email: 'adm@sindirefeicoessuzano.com.br',
     website: 'www.sindirefeicoessuzano.org.br',
-    basedata: 'JUNHO',
+    basedata: 'Junho',
     coverage: [
       'ARUJÁ',
       'BIRITIBA MIRIM',
@@ -172,7 +184,7 @@ export const sindicatos: Sindicato[] = [
     phone: '(15) 3211-1665',
     email: '-',
     website: 'www.sindirefeicoests.org.br',
-    basedata: 'JUNHO',
+    basedata: 'Junho',
     coverage: [
       'ALAMBARI',
       'ALUMÍNIO',
@@ -228,7 +240,7 @@ export const sindicatos: Sindicato[] = [
     phone: '(11) 2409-2669 – (11) 2442-9427',
     email: 'aretusasindrefeicoes@gmail.com',
     website: '-',
-    basedata: 'JUNHO',
+    basedata: 'Junho',
     coverage: ['GUARULHOS'],
   },
   {
@@ -240,7 +252,7 @@ export const sindicatos: Sindicato[] = [
     phone: '(11) 5574-8398',
     email: 'comunicacao@sindirefeicoessp.org.br',
     website: 'www.sindirefeicoessp.org.br',
-    basedata: 'JUNHO',
+    basedata: 'Junho',
     coverage: ['SÃO PAULO'],
   },
   {
@@ -252,7 +264,7 @@ export const sindicatos: Sindicato[] = [
     phone: '(14) 3234-9763',
     email: 'adm@sinterc.org.br',
     website: 'www.sinterc.org.br',
-    basedata: 'JUNHO',
+    basedata: 'Junho',
     coverage: [
       'ÁGUAS DE SANTA BÁRBARA',
       'ÁLVARES FLORENCE',
@@ -658,7 +670,7 @@ export const sindicatos: Sindicato[] = [
     phone: '(19) 3237-3455',
     email: 'contato@sintercamp.org.br',
     website: 'www.sintercamp.org.br',
-    basedata: 'JUNHO',
+    basedata: 'Junho',
     coverage: [
       'ÁGUAS DA PRATA',
       'ÁGUAS DE SÃO PEDRO',
@@ -742,7 +754,7 @@ export const sindicatos: Sindicato[] = [
     phone: '(11) 2136-6500',
     email: 'contato@sintercoj.org.br',
     website: 'www.sintercoj.org.br',
-    basedata: 'JUNHO',
+    basedata: 'Junho',
     coverage: [
       'ÁGUAS DE LINDÓIA',
       'AMPARO',
@@ -788,7 +800,7 @@ export const sindicatos: Sindicato[] = [
     phone: '(13) 3375-3092',
     email: 'contato@sintercub.com.br',
     website: 'www.sintercub.com.br',
-    basedata: 'JUNHO',
+    basedata: 'Junho',
     coverage: [
       'BARRA DO TURVO',
       'BERTIOGA',
