@@ -575,7 +575,6 @@ export const sindicatos: Sindicato[] = [
       'SÃO PEDRO DO TURVO',
       'SÃO SEBASTIÃO DA GRAMA',
       'SÃO SIMÃO',
-      'sa',
       'SABINO',
       'SAGRES',
       'SALES',
