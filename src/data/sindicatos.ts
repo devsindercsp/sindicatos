@@ -253,7 +253,7 @@ export const sindicatos: Sindicato[] = [
     email: 'comunicacao@sindirefeicoessp.org.br',
     website: 'www.sindirefeicoessp.org.br',
     basedata: 'Junho',
-    coverage: ['SÃO PAULO'],
+    coverage: ['SÃO PAULO - CAPITAL'],
   },
   {
     name: 'SIND DOS TRABALHADORES EM EMPRESAS REFEIÇÕES COL DA REGIAO NORTE/OESTE',
