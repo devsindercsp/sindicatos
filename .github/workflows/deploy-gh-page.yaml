@@ -9,12 +9,6 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Set up Git
-        run: |
-          git config --global user.email "guicrozariol@gmail.com"
-          git config --global user.name "gcrozariol"
-          git remote set-url origin "${{ github.server_url }}/${{ github.repository }}.git"
-
       - name: Checkout code
         uses: actions/checkout@v2
 
@@ -22,9 +16,15 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '20'
-
+        
       - name: Install dependencies
         run: npm install
+
+      - name: Set up Git
+        run: |
+          git config --global user.email "guicrozariol@gmail.com"
+          git config --global user.name "gcrozariol"
+          git remote set-url origin "${{ github.server_url }}/${{ github.repository }}.git"
 
       - name: Run deploy script
         run: npm run deploy
