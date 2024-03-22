@@ -22,6 +22,7 @@ jobs:
 
       - name: Set Git user email and name
         run: |
+          git remote set-url origin https://github.com/devsindercsp/sindicatos.git
           git config --global user.email "guicrozariol@gmail.com"
           git config --global user.name "gcrozariol"
 
