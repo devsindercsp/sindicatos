@@ -39,9 +39,9 @@ export const sindicatos: Sindicato[] = [
     town: 'JARDIM DO MAR',
     city: 'SÃO BERNARDO DO CAMPO',
     state: 'SP',
-    phone: '(11) 4436-2529 – (11) 4330-3674',
-    email: 'seercabcdmrp@gmail.com',
-    website: '-',
+    phone: '(11) 4330-3674',
+    email: 'contato@seercabc.org',
+    website: 'www.seercabc.org',
     basedata: 'Junho',
     coverage: [
       'DIADEMA',
