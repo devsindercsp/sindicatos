@@ -70,7 +70,6 @@ export const sindicatos: Sindicato[] = [
       'CAÇAPAVA',
       'CACHOEIRA PAULISTA',
       'CAMPOS DO JORDÃO',
-      'CANAS',
       'CRUZEIRO',
       'CUNHA',
       'GUARATINGUETÁ',
