@@ -27,7 +27,7 @@ export const sindicatos: Sindicato[] = [
       'ESPÍRITO SANTO DO PINHAL',
       'JUQUITIBA',
       'PIRANGI',
-      'POTIM',
+      'POTIM-ANO',
       'PRATÂNIA',
       'REDENÇÃO DA SERRA',
       'SETE BARRAS',
