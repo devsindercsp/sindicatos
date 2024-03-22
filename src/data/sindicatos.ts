@@ -25,7 +25,7 @@ export const sindicatos: Sindicato[] = [
     coverage: [
       'REDENÇÃO DA SERRA',
       'ESPÍRITO SANTO DO PINHAL',
-      'POTIM',      
+      'POTIM',
       'SETE BARRAS INICIAL',
       'CANAS',
       'JUQUITIBA',
@@ -149,7 +149,7 @@ export const sindicatos: Sindicato[] = [
     state: 'SP',
     phone: '(11) 4746-2326',
     email: 'sintercater@hotmail.com',
-    website: '`-',
+    website: '-',
     basedata: 'JUNHO',
     coverage: [
       'ARUJÁ',
@@ -173,7 +173,7 @@ export const sindicatos: Sindicato[] = [
     state: 'SP',
     phone: '(15) 3233-9146 – (15) 3211-1665',
     email: '-',
-    website: '`-',
+    website: '-',
     basedata: 'JUNHO',
     coverage: [
       'ALAMBARI',
@@ -229,7 +229,7 @@ export const sindicatos: Sindicato[] = [
     state: 'SP',
     phone: '(11) 2409-2669 – (11) 2442-9427',
     email: 'aretusasindrefeicoes@gmail.com',
-    website: '`-',
+    website: '-',
     basedata: 'JUNHO',
     coverage: ['GUARULHOS'],
   },
