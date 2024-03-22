@@ -747,7 +747,7 @@ export const sindicatos: Sindicato[] = [
   },
   {
     name: 'SIND DOS TRABALHADORES EM EMPRESAS DE REFEIÇÕES COLETIVAS DE JUNDIAÍ',
-    address: 'RUA VIGÁRIO JOÃO JOSÉ RODRIGUES, 241',
+    address: 'RUA DA SAÚDE, 91',
     town: '-',
     city: 'JUNDIAÍ',
     state: 'SP',
