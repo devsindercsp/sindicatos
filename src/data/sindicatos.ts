@@ -767,7 +767,7 @@ export const sindicatos: Sindicato[] = [
   {
     name: 'SIND DOS TRABALHADORES EM EMPRESAS DE REFEIÇÕES COLETIVAS DE JUNDIAÍ',
     address: 'RUA DA SAÚDE, 91',
-    town: '-',
+    town: 'VILA VIANELO',
     city: 'JUNDIAÍ',
     state: 'SP',
     phone: '(11) 2136-6500',
