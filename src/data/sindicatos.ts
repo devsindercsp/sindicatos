@@ -341,7 +341,7 @@ export const sindicatos: Sindicato[] = [
       'CAJATI',
       'CAJOBI',
       'CAJURU',
-      'CAMPOS NOVOS PAULISTA'      
+      'CAMPOS NOVOS PAULISTA',
       'CÂNDIDO MOTA',
       'CÂNDIDO RODRIGUES',
       'CANITAR',
