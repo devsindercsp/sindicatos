@@ -112,7 +112,7 @@ export const sindicatos: Sindicato[] = [
       'ITAPEVI',
       'JANDIRA',
       'OSASCO',
-      'SANTANA DO PARNAÍBA',
+      'SANTANA DE PARNAÍBA',
     ],
   },
   {
