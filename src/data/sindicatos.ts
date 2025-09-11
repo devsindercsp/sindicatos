@@ -141,12 +141,12 @@ export const sindicatos: Sindicato[] = [
   },
   {
     name: 'SINDICATO DOS TRABALHADORES EM REFEIÇÕES COLETIVAS DE COTIA, EMBU DAS ARTES, EMBU GUAÇU, ITAPECERICA DA SERRA E TABOÃO DA SERRA',
-    address: 'RUA LAVRADIO, 603 – ALTOS',
-    town: 'BARRA FUNDA',
-    city: 'SÃO PAULO',
+    address: 'RUA JORGE CAIXE, 192',
+    town: 'JARDIM NOMURA',
+    city: 'COTIA',
     state: 'SP',
-    phone: '(11) 5539-0526',
-    email: 'sindirefeicoescotia@gmail.com',
+    phone: '(11) 4703-5603',
+    email: 'contato@sindirefeicoescotia.com.br',
     website: '-',
     basedata: 'Junho',
     coverage: [
