@@ -147,7 +147,7 @@ export const sindicatos: Sindicato[] = [
     state: 'SP',
     phone: '(11) 4703-5603',
     email: 'contato@sindirefeicoescotia.com.br',
-    website: '-',
+    website: 'www.sindirefeicoescotia.com.br',
     basedata: 'Junho',
     coverage: [
       'COTIA',
